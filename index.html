@@ -1,0 +1,161 @@
+<!DOCTYPE html><html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>AstroNova – Explorer l’Univers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(180deg, #05010d, #0b1c2d);
+      color: #ffffff;
+    }
+    header {
+      padding: 60px 20px;
+      text-align: center;
+      background: radial-gradient(circle at top, #1b3b6f, #05010d);
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+    nav {
+      background: #02010a;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px;
+      position: sticky;
+      top: 0;
+    }
+    nav a {
+      color: #9ecbff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #ffffff;
+    }
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+    section h2 {
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+      color: #9ecbff;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: rgba(255,255,255,0.05);
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #ffffff;
+    }
+    .cta {
+      text-align: center;
+      background: #0b2c4a;
+      padding: 60px 20px;
+      border-radius: 20px;
+    }
+    .cta a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 15px 35px;
+      background: #9ecbff;
+      color: #000;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .cta a:hover {
+      background: #ffffff;
+    }
+    .blog-post {
+      background: rgba(255,255,255,0.05);
+      margin-bottom: 30px;
+      padding: 25px;
+      border-radius: 12px;
+    }
+    .blog-post h3 {
+      margin-top: 0;
+      color: #ffffff;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+    a.details-link {
+      color: #9ecbff;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body><header>
+  <h1>AstroNova</h1>
+  <p>Découvre l’Univers, les planètes et les mystères du cosmos</p>
+</header><nav>
+  <a href="#univers">Univers</a>
+  <a href="#planetes">Planètes</a>
+  <a href="#blog">Blog</a>
+  <a href="#business">Business</a>
+  <a href="#ebook">E-book</a>
+</nav><section id="univers">
+  <h2>L’Univers</h2>
+  <p>L’univers est un vaste ensemble composé de galaxies, étoiles, planètes, nébuleuses et trous noirs. Les nébuleuses sont des nuages de gaz et de poussières où naissent de nouvelles étoiles. Les galaxies regroupent des milliards d’étoiles et peuvent prendre différentes formes : spirales, elliptiques ou irrégulières. Les supernovas sont des explosions d’étoiles en fin de vie, enrichissant l’espace en éléments chimiques essentiels à la formation de nouvelles étoiles et planètes.</p>
+</section><section id="planetes">
+  <h2>Les Planètes du Système Solaire</h2>
+  <div class="cards">
+    <div class="card"><h3>Mercure</h3><p>La planète la plus proche du Soleil, petite et rocheuse, avec des températures extrêmes allant de -173°C à 427°C.</p></div>
+    <div class="card"><h3>Vénus</h3><p>Souvent appelée la planète sœur de la Terre, elle possède une atmosphère épaisse et toxique, avec des températures de surface dépassant 460°C.</p></div>
+    <div class="card"><h3>Terre</h3><p>Notre planète, riche en vie et eau liquide, avec une atmosphère protectrice composée principalement d’azote et d’oxygène.</p></div>
+    <div class="card"><h3>Mars</h3><p>La planète rouge, candidate pour l’exploration humaine, avec des montagnes géantes comme Olympus Mons et d’anciens lits de rivières. <a class="details-link" href="mars_detail.html">En savoir plus</a></p></div>
+    <div class="card"><h3>Jupiter</h3><p>La plus grande planète du système solaire, géante gazeuse avec une énorme tempête connue sous le nom de Grande Tache Rouge.</p></div>
+    <div class="card"><h3>Saturne</h3><p>Célèbre pour ses anneaux spectaculaires composés de glace et de poussière, Saturne est une géante gazeuse avec de nombreuses lunes.</p></div>
+    <div class="card"><h3>Uranus</h3><p>Une géante glacée avec une inclinaison axiale unique, ses anneaux sont sombres et étroits, et sa couleur bleue provient du méthane dans son atmosphère.</p></div>
+    <div class="card"><h3>Neptune</h3><p>La planète la plus éloignée du Soleil, une géante glacée avec des vents extrêmement rapides et des tempêtes violentes, souvent visibles comme des taches sombres.</p></div>
+  </div>
+</section><section id="blog">
+  <h2>Blog Astronomie</h2>
+  <div class="blog-post">
+    <h3><a class="details-link" href="mars_detail.html">Observer Mars au télescope</a></h3>
+    <p>Découvrez les meilleures périodes pour observer Mars et identifier ses calottes polaires et cratères. Des conseils pour les débutants avec un petit télescope.</p>
+  </div>
+  <div class="blog-post">
+    <h3><a class="details-link" href="nebuleuses_detail.html">Les nébuleuses fascinantes</a></h3>
+    <p>Exploration des nébuleuses les plus célèbres, comme la Nébuleuse d'Orion et la Nébuleuse de la Lagune. Comment les photographier et les observer depuis la Terre.</p>
+  </div>
+  <div class="blog-post">
+    <h3><a class="details-link" href="trous_noirs_detail.html">Comprendre les trous noirs</a></h3>
+    <p>Un guide simple pour comprendre ce qu'est un trou noir, comment ils se forment et les effets spectaculaires qu’ils produisent dans l’espace environnant.</p>
+  </div>
+</section><section id="business">
+  <div class="cta">
+    <h2>Monétisation & Projets</h2>
+    <p>Affiliation et contenus premium autour de l’astronomie.</p>
+    <a href="#">Découvrir les offres</a>
+  </div>
+</section><section id="ebook" style="padding:60px 20px; background:#1b2b3c; border-radius:20px; max-width:1000px; margin:auto; text-align:center;">
+  <h2 style="color:#9ecbff; font-size:2.2rem;">Télécharge ton E-book & PDF Gratuit</h2>
+  <p>Découvre notre guide complet pour observer le ciel et comprendre les bases de l’astronomie. Télécharge gratuitement le PDF ou l’e-book.</p>
+  <a href="astro_guide.pdf" download style="display:inline-block; margin:10px; padding:15px 30px; background:#9ecbff; color:#000; border-radius:30px; text-decoration:none; font-weight:bold;">Télécharger PDF</a>
+  <a href="astro_guide.epub" download style="display:inline-block; margin:10px; padding:15px 30px; background:#9ecbff; color:#000; border-radius:30px; text-decoration:none; font-weight:bold;">Télécharger E-book</a>
+</section><footer>
+  © 2025 AstroNova – Tous droits réservés
+</footer></body>
+</html>
